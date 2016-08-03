@@ -1,0 +1,137 @@
+<html>
+<head>
+  <Title> Flappy Pokemon
+  </Title>
+
+  <link rel="stylesheet" href="../lib/bootstrap.css"/>
+  <link rel="stylesheet" href="../assets/Style.css"/>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="Heading">Flappy Pokémon!
+      </h1>
+      <div class="space">
+      </div>
+      <h4>Welcome to Flappy Pokémon.
+      </h4>
+
+      <div class="space">
+      </div>
+
+      <p class="intro" style="font-size: 1em;"> Charizard has lost Ash in the Cerulean Cave, and
+        he seems to have woken up a flock of Articunos!
+        Help Charizard find Ash and the others safely
+        without running into any of the Articuno Flock. But
+        be careful, crashing into an Articuno will push you back to the start!
+      </p >
+    </div>
+
+    <div class="space">
+    </div>
+
+    <div class="row">
+      <div class="col-md-9">
+
+        <div id="game">
+        </div>
+
+      </div>
+
+      <div class="col-md-3" >
+
+        <button type="button" class="btn btn-info btn-sm" id="Howto" >How To Play
+
+        </button>
+
+        <button type="button" class="btn btn-primary btn-sm"  id="scoreBoard" >High Score
+
+        </button>
+
+        <button type="button" class="btn btn-primary btn-sm"  id="creator" >Creator
+
+        </button>
+
+        <div class="space">
+        </div>
+
+        <div id="content" >
+        </div>
+
+        <div id="Instructions">
+          <ul>
+            <li> Press SPACE to flap your wings.</li>
+            <li> Avoid the Articunos.</li>
+            <li> If you crash, just try again!</li>
+          </ul>
+        </div>
+
+
+        <div id="scoreBoard">
+
+          <div id="drawScore" style="padding-top:5px;padding-left:30px;">
+
+          </div>
+        </div>
+
+
+
+      <div id="Me">
+        <img src="../assets/me.jpg" class="img-circle img-responsive img-xs"/>
+        <p style= "text-align:center; font-size:12px;   padding-top: 5px;">Game created by BlueTaj,excessive gamer and all round geek!
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="space">
+  </div>
+  <div class="space">
+  </div>
+
+    <div class="row" style="">
+
+      <div class="col-md-4" style="padding-left:10px;">
+        <img src="../assets/gamescreenshot1.png" class="img-circle img-responsive" style="align" />
+        <div style="font-size: 9px; padding-top:5px; width:100px; text-align:center;"> Avoid the Articunos in order to save your team!
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <img src="../assets/Gamescreenshot2.png" class="img-circle img-responsive" style="text-align: center"/>
+        <div style="font-size: 9px; padding-top:5px; width:100px; text-align:center;"> Get Charizard out there safely!
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <img src="../assets/Gamescreenshot3.png" class="img-circle img-responsive" style="text-align: center"/>
+        <div style="font-size: 9px; padding-top:5px; width:100px; text-align:center;"> How long can you go ?
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="space">
+  </div>
+
+  <div class="space">
+  </div>
+
+  <script type="text/javascript" src="../lib/phaser.min.js">
+  </script>
+  <script type="text/javascript" src="../js/flappy.js">
+  </script>
+
+  <script type="text/javascript" src="../lib/jquery.js">
+  </script>
+  <script type="text/javascript" src="../js/Pokéinteractivity.js">
+  </script>
+</body>
+
+</html>
